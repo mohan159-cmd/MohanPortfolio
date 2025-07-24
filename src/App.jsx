@@ -3,7 +3,7 @@ import { Mail, Phone, Linkedin, MapPin, Download, Code, Database, Cloud, Award, 
 
 const PortfolioWebsite = () => {
   const [activeSection, setActiveSection] = useState('home');
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false); 
 
   useEffect(() => {
     const handleScroll = () => {
